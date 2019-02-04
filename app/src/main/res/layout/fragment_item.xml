@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="4dp"
+    android:layout_marginTop="6dp"
+    android:layout_marginRight="4dp"
+    android:background="@color/Tint">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/VH_StationImage"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_margin="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="4dp"
+            android:contentDescription="StationImage"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/linearLayout"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0"
+            tools:srcCompat="@drawable/radio_tower" />
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="8dp"
+            android:gravity="center_vertical"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="@+id/VH_StationImage"
+            app:layout_constraintEnd_toStartOf="@+id/VH_FavButton"
+            app:layout_constraintStart_toEndOf="@+id/VH_StationImage"
+            app:layout_constraintTop_toTopOf="@+id/VH_StationImage">
+
+            <TextView
+                android:id="@+id/VH_StationName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ITU College Radio -JazzBlues"
+                android:textSize="14sp"
+                app:layout_constraintBottom_toTopOf="@+id/VH_StationCountry"
+                app:layout_constraintStart_toEndOf="@+id/VH_StationImage"
+                app:layout_constraintTop_toTopOf="@+id/VH_StationImage" />
+
+            <TextView
+                android:id="@+id/VH_StationCountry"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Turkey"
+                android:textSize="10sp"
+                tools:layout_editor_absoluteX="88dp"
+                tools:layout_editor_absoluteY="41dp" />
+
+            <TextView
+                android:id="@+id/VH_StationBit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="128 kbps"
+                android:textSize="10sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/VH_StationCountry" />
+
+        </LinearLayout>
+
+        <ImageButton
+            android:id="@+id/VH_FavButton"
+            style="@style/Widget.AppCompat.Button.Small"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="8dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:background="@color/FullTransparent"
+            app:srcCompat="@drawable/ic_favorite_border_black_24dp"
+            tools:srcCompat="@drawable/ic_favorite_border_black_24dp" />
+
+    </android.support.constraint.ConstraintLayout>
+
+</android.support.design.card.MaterialCardView>

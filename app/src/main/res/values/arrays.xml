@@ -1,0 +1,20 @@
+<resources>
+    <string-array name="pref_search_default">
+        <item>"clickcount"</item>
+    </string-array>
+    <string-array name="pref_search_options">
+        <item>@string/byName</item>
+        <item>@string/ByCountry</item>
+        <item>@string/ByLanguage</item>
+        <item>@string/Byclickcount</item>
+        <item>@string/ByclickTrend</item>
+    </string-array>
+    <string-array name="pref_search_values">
+        <item>"name"</item>
+        <item>"country"</item>
+        <item>"language"</item>
+        <item>"clickcount"</item>
+        <item>"clicktrend"</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_fav"
+        android:icon="@drawable/ic_favorite_border_black_24dp"
+        android:title="@string/nav_fav" />
+    <item
+        android:id="@+id/nav_popular"
+        android:icon="@drawable/ic_whatshot_black_24dp"
+        android:title="@string/nav_popular" />
+    <item
+        android:id="@+id/nav_countries"
+        android:icon="@drawable/ic_public_black_24dp"
+        android:title="@string/nav_countries" />
+</menu>

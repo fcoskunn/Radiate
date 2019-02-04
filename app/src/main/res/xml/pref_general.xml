@@ -1,0 +1,25 @@
+<PreferenceScreen
+    xmlns:android = "http://schemas.android.com/apk/res/android"
+    android:layout_width ="match_parent"
+    android:layout_height="match_parent">
+
+    <SwitchPreference
+        android:defaultValue="true"
+        android:key="DownloadImages"
+        android:title="@string/ShouldDownloadImages"></SwitchPreference>
+
+    <EditTextPreference
+        android:title = "@string/searchQuestion"
+        android:key ="searchLimit"
+        android:inputType="number"
+        android:numeric="integer"
+        android:defaultValue ="10">
+    </EditTextPreference>
+
+    <ListPreference
+        android:defaultValue="@string/Byclickcount"
+        android:entries="@array/pref_search_options"
+        android:entryValues="@array/pref_search_values"
+        android:key="searchComponent"
+        android:title="@string/orderByWhat"></ListPreference>
+</PreferenceScreen>

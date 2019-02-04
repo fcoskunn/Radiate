@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Radiate</string>
+    <string name="nav_fav">Favoriler</string>
+    <string name="nav_popular">Popüler</string>
+    <string name="nav_countries">Ülkeler</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Merhaba boş çerçeve</string>
+    <string name="action_settings">Ayarlar</string>
+    <string name="randomStation">Rastgele İstasyon</string>
+    <string name="PlayingRadio">Çalan Radyo</string>
+    <string name="searchText">Arama</string>
+    <string name="openSideNav">Bar Açıldı</string>
+    <string name="closeSideNav">Bar Kapandı</string>
+    <string name="selectComponent">Bileşen seçiniz</string>
+    <string name="byName">Radyo isimleri</string>
+    <string name="ByCountry">Ülke adları</string>
+    <string name="ByLanguage">Radyo Dilleri</string>
+    <string name="ByTag">Etiket</string>
+    <string name="Name">Radyo İsmi</string>
+    <string name="Language">Dil</string>
+    <string name="Country">Ülke</string>
+    <string name="hintTags">haberler, müzik, pop...</string>
+    <string name="ExampleRadioName">Virgin Fm</string>
+    <string name="Byclickcount">Tıklanma Sayısı</string>
+    <string name="ByclickTrend">Tıklanma Trendi</string>
+    <string name="searchQuestion">Arama Sonuçlarında Gösterilecek Radyo Sayısı</string>
+    <string name="orderByWhat">Arama Sonuçlarını Sırala</string>
+    <string name="ShouldDownloadImages">Ağ üzerinden radyo simgelerini indir</string>
+    <string name="notif1Title">"Listen Popular Radio Stations"</string>
+    <string name="notif1Body">"Turn up the volume. Close your eyes and let the radio take over your soul!"</string>
+    <string name="notif2Title">"Discover Radio Stations From Other Countries"</string>
+    <string name="notif2Body">"A different language is a different vision of life \n -Federigo Fellini"</string>
+
+</resources>
