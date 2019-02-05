@@ -14,9 +14,9 @@ Radiate Radio Player is the easiest way to listen to radio stations from around 
 
 
  Used Libraries and APIs:
- 	[Radio-Browser API](http://www.radio-browser.info/webservice)
- 	[Picasso](https://square.github.io/picasso/)
- 	[Retrofit](https://square.github.io/retrofit/)
- 	And many more...
+ *	[Radio-Browser API](http://www.radio-browser.info/webservice)
+ *	[Picasso](https://square.github.io/picasso/)
+ *	[Retrofit](https://square.github.io/retrofit/)
+ And many more...
 
  Please push and develop it. 
